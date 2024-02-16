@@ -166,6 +166,7 @@ nnoremap <space><space> :Ex<cr>
 " Navigate between buffers
 nnoremap <space><right> :bnext<cr>
 nnoremap <space><left> :bprevious<cr>
+nnoremap <space>x :bd<cr>
 
 " Navigate the split screen
 nnoremap <c-up> <c-w>k
