@@ -184,16 +184,16 @@ noremap <c-s-left> <c-w><
 nnoremap <c-w>h :split<cr>
 nnoremap <c-w>v :vsplit<cr>
 
+" Tag jumping
+nnoremap ]  <c-]>
+nnoremap [  <c-t>
+
 " Autocomplete
 inoremap <c-down> <c-n>
 inoremap <c-up> <c-p>
 inoremap <c-n> <c-x><c-n>
 inoremap <c-f> <c-x><c-f>
 inoremap <c-t> <c-x><c-]>
-
-" Tag jumping
-nnoremap <c-s-]>  <c-]>
-nnoremap <c-s-[>  <c-t>
 
 " Undo/Redo
 nnoremap <c-u> u
