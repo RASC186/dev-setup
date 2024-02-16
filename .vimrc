@@ -73,7 +73,7 @@ set completeopt=menuone,longest
 set autoindent
 
 " Use space characters instead of tabs
-set expandtab
+set noexpandtab
 
 " Set shift width
 set shiftwidth=2
